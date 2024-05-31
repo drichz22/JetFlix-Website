@@ -1,0 +1,278 @@
+/* Dark Theme Light Theme */
+:root {
+    --primary-color: #F5F5F5;
+    --secondary-color: #121212;
+}
+.dark_theme {
+    --primary-color: #121212;
+    --secondary-color: #F5F5F5;
+}
+
+/* Best Movie */
+.bestMovieContainer {
+    margin-top: 2rem;
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../Assets/best\ movie\ -\ details.jpg');
+    height: 125vh;
+    min-width: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    align-items: center;
+}
+
+.genre {
+    font-size: clamp(3vw, 3rem, 5vw);
+    text-align: right;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    color: #F05454;
+    font-weight: 700;
+}
+
+/* Synopsis */
+.synopsis-title{
+    background: transparent;
+    position: relative;
+    font-size: clamp(1.5vh, 3rem, 4.5rem);
+    color: var(--secondary-color);
+    font-weight: 900;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+.synopsis-title {
+    overflow: hidden;
+    text-align: center;
+}
+.synopsis-title:before, .synopsis-title:after {
+    background-color: #30475E;
+    content: "";
+    display: inline-block;
+    height: 10px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.synopsis-title:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.synopsis-title:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+.synopsis{
+    min-height: 100vh;
+    min-height: 100svh;
+    height: auto;
+    background: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -8rem;
+}
+.container{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.synopsis-desc{
+    max-width: 900px;
+    width: 100%;
+    min-width: 300px;
+    font-size: clamp(.75rem, 2vw, 1rem);
+    font-weight: 600;
+    line-height: 2rem;
+    text-align: center;
+    color: var(--secondary-color);
+    margin-bottom: 2rem;
+}
+
+/* ALL EPISODES */
+.episodes-body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+  }
+  .slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+  }
+  .card{
+    border-radius: 25px;
+    background-color: #F05454;
+  }
+  .image-content,
+  .card-content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 14px;
+  }
+  .image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+  }
+
+  /* S1E1 */
+  .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../Assets/S1E1\ -\ Details.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px 25px 0px 0px;
+  }
+
+  /* S1E2 */
+  .overlay2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../Assets/S1E2\ -\ Details.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px 25px 0px 0px;
+  }
+
+  /* S1E3 */
+  .overlay3{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../Assets/S1E3\ -\ Details.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px 25px 0px 0px;
+  }
+
+  /* S1E4 */
+  .overlay4{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../Assets/S1E4\ -\ Details.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px 25px 0px 0px;
+  }
+
+  /* S1E5 */
+  .overlay5{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../Assets/S1E5\ -\ Details.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px 25px 0px 0px;
+  }
+
+  /* S1E6 */
+  .overlay6{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../Assets/S1E6\ -\ Details.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px 25px 0px 0px;
+  }
+
+  .card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 3px;
+  }
+  .card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .content-container {
+    margin-top: -1rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .season {
+    font-size: 25px;
+    font-weight: 700;
+    color: #F5F5F5;
+  }
+  .runtime {
+    font-size: 25px;
+    font-weight: 700;
+    color: #121212;
+    margin-left: 2rem;
+  }
+  .name{
+    margin-top: -1.5rem;
+    font-size: 35px;
+    font-weight: 700;
+    color: #F5F5F5;
+    text-align: left;
+  }
+  .description{
+    font-size: 14px;
+    font-weight: 700;
+    color: #30475E;
+    text-align: left;
+    margin-top: -1.5rem;
+  }
+  .space3 {
+    height: 1.25vh;
+  }
+  .space2 {
+    height: 6vh;
+  }
+  @media screen and (max-width: 768px) {
+    .slide-content{
+      margin: 0 10px;
+    }
+    .swiper-navBtn{
+      display: none;
+    }
+    #synopsis-title-all{
+      background-color: var(--primary-color);
+      margin-bottom: -5rem;
+      margin-top: 8rem;
+    }
+    .synopsis {
+      background-color: var(--primary-color);
+    }
+    .space3 {
+      height: 6vh;
+    }
+    .space1 {
+      height: 3vh;
+    }
+    .space2 {
+      height: 3vh;
+    }
+  }

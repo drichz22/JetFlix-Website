@@ -1,0 +1,163 @@
+/* Dark Theme Light Theme */
+:root {
+    --primary-color: #F5F5F5;
+    --secondary-color: #121212;
+}
+.dark_theme {
+    --primary-color: #121212;
+    --secondary-color: #F5F5F5;
+}
+
+/* Form */
+.background-clr{
+    background-color: var(--primary-color)
+}
+
+.registerBox{
+    margin-top: 1rem;
+    margin-bottom: -2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: var(--primary-color);
+}
+.container{
+    padding: 2rem;
+    width: 505px;
+    height: 800px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    border-radius: 25px;
+}
+.Register{
+    margin-top: 0;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.title{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    color: var(--primary-color);
+    font-size: larger;
+    font-weight: bolder;
+}
+.form-row{
+    width: 95%;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+    margin-bottom: 1rem;
+}
+.form-Input{
+    box-sizing: border-box;
+    padding: .8rem .5rem;
+    border: 0;
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    width: 100%;
+    opacity: 60%;
+    font-size: medium;
+    font-family: "Poppins";
+}
+.form-Input::placeholder{
+    color: #121212;
+    font-size: medium;
+}
+.form-Input:focus{
+    outline: none;
+    border-bottom: 5px solid var(--primary-color);
+}
+.genderList{
+    color: var(--primary-color);
+    padding-top: 10px;
+    display: flex;
+    align-items: left;
+    column-gap: 0.25rem;
+}
+.genderList input{
+    appearance: none;
+    border-radius: 50%;
+    width: 1.25rem;
+    height: 1.25rem;
+    box-shadow: 0px 0px 4px #102030;
+    border: .1rem solid #F05454;
+    background-color: #213644;
+    transition: 0.2s all linear;
+    margin-right: 10px;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.genderList input:checked{
+    border: .25rem solid #30475E;
+    background-color: #F05454;
+}
+.gender-label{
+    padding-right: 1.5rem;
+}
+.submit-btn{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    width: fit-content;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem 1.5rem;
+    background: #30475E;
+    color: #F5F5F5;
+    border: solid 2px transparent;
+    border-radius: 1.25rem;
+    transition: 0.3s ease-in-out all;
+}
+.submit-btn:hover{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #F05454;
+    transition: 0.3s ease-in-out all;
+    color: #121212;
+}
+.check-container{
+    color: var(--primary-color);
+    padding-top: 14px;
+    display: flex;
+    align-items: left;
+    column-gap: 0.25rem;
+}
+.check-container input {
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background-color: #d9d9d9;
+    margin-left: 0.3rem;
+    transition: all;
+    cursor: pointer;
+}
+.check-container input:checked {
+    color: #121212;
+    background: #F05454;
+}
+.check-container input:hover {
+    background-color: #bbbaba;
+    transition: 0.1s ease-in;
+}
+.checkbox-label {
+    margin-left: 1rem;
+    margin-top: 0.1rem;
+}
+.form-row.success input {
+    border-color: #09c372;
+}
+.form-row.error input {
+    border-color: #ff3860;
+}
+.form-row .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}

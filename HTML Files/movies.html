@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS Files/home.css">
+    <link rel="stylesheet" href="../CSS Files/transition.css">
+    <link rel="stylesheet" href="../CSS Files/movies.css">
+    <script src="https://kit.fontawesome.com/ea57a11c1b.js" crossorigin="anonymous"></script>
+    <title>Movies | JeTFlix</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <div class="navLogo" id="navbar_logo">
+                <button onclick="location.href='#moviesSection'">
+                <img class="logo" src="../Assets/Logo-main.png" alt="logo" id="logo-nav">
+                </button>
+              </div>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                    <li class="navbar_item">
+                    <a href="home.html" class="navbar_links" id="home-page">HOME</a>
+                    </li>
+                    <li class="navbar_item">
+                    <a href="news.html" class="navbar_links" id="about-page">NEWS<br>& POPULAR</a>
+                    </li>
+                    <li class="navbar_item">
+                    <a href="#moviesSection" class="navbar_links" id="songs-page">MOVIES</a>
+                    </li>
+                    <li class="navbar_item">
+                    <a href="details.html" class="navbar_links" id="songs-page">DETAILS</a>
+                    </li>
+                    <li class="navbar_button">
+                    <a href="sign-up.html" class="navbtn" id="signup">SIGN-UP</a>
+                    </li>
+            </ul>
+        </div>
+      <img src="../Assets/moon.png" alt="moon" id="darklight">
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="section" id="moviesSection">
+        <div class="jumbo-img">
+          <div class="header">
+            <div class="jumbo-title">
+              THE WALKING DEAD
+            </div>
+            <div class="genre">HORROR, THRILLER</div>
+            <button class="detailsBtn" onclick="location.href='details.html'">DETAILS</button>
+          </div>
+        </div>
+      </div>
+
+    <!-- Movies -->
+    <!-- Horror -->
+  <div class="section" id="listSection">
+    <div class="movies-bg">
+      <div class="horror">
+        <div class="category-title">HORROR</div>
+        <div class="eventsWrapper">
+          <div class="eventsCardH-1" onclick="location.href='#'">
+            <div class=cardWrapper>
+              <div class="movie-title">TEXAS CHAINSAW MASSACRE</div>
+              <h1 class="releaseYear">1974</h1>
+            </div>
+          </div>
+          <div class="eventsCardH-2" onclick="location.href='#'">
+            <div class=cardWrapper>
+              <div class="movie-title">THE SHINING</div>
+              <h1 class="releaseYear">1980</h1>
+            </div>
+          </div>
+          <div class="eventsCardH-3" onclick="location.href='#'">
+            <div class=cardWrapper>
+              <div class="movie-title">THE THING</div>
+              <h1 class="releaseYear">1982</h1>
+            </div>
+        </div>
+            <div class="eventsCardH-4" onclick="location.href='#'">
+                <div class=cardWrapper>
+                  <div class="movie-title">HALLOWEEN</div>
+                  <h1 class="releaseYear">1978</h1>
+                </div>
+            </div>
+            <div class="eventsCardH-5" onclick="location.href='#'">
+                <div class=cardWrapper>
+                     <div class="movie-title">SAW I</div>
+                    <h1 class="releaseYear">2004</h1>
+                </div>
+            </div>
+            <div class="eventsCardH-6" onclick="location.href='#'">
+                <div class=cardWrapper>
+                    <div class="movie-title">THE MIST</div>
+                    <h1 class="releaseYear">2007</h1>
+                </div>
+            </div>
+          </div>
+        </div>
+      
+      <!-- Action -->
+      <div class="action">
+        <div class="category-title-action">ACTION</div>
+        <div class="eventsWrapper">
+          <div class="eventsCardA-1" onclick="location.href='#'">
+            <div class=cardWrapper>
+              <div class="movie-title">TOP GUN: MAVERICK</div>
+              <h1 class="releaseYear" style="color: #30475E;">2022</h1>
+            </div>
+          </div>
+          <div class="eventsCardA-2" onclick="location.href='#'">
+            <div class=cardWrapper></div>
+              <div class="movie-title">NOBODY</div>
+              <h1 class="releaseYear" style="color: #30475E;">2021</h1>
+          </div>
+          <div class="eventsCardA-3" onclick="location.href='#'">
+            <div class=cardWrapper>
+              <div class="movie-title">BLADE RUNNER: 2047</div>
+              <h1 class="releaseYear" style="color: #30475E;">2017</h1>
+            </div>
+          </div>
+          <div class="eventsCardA-4" onclick="location.href='#'">
+            <div class=cardWrapper>
+              <div class="movie-title">THE RAID: REDEMPTION</div>
+              <h1 class="releaseYear" style="color: #30475E;">2011</h1>
+            </div>
+          </div>
+          <div class="eventsCardA-5" onclick="location.href='#'">
+            <div class=cardWrapper>
+              <div class="movie-title">RUSH HOUR</div>
+              <h1 class="releaseYear" style="color: #30475E;">1998</h1>
+            </div>
+          </div>
+          <div class="eventsCardA-6" onclick="location.href='#'">
+            <div class=cardWrapper>
+              <div class="movie-title">SCARFACE</div>
+              <h1 class="releaseYear" style="color: #30475E;">1983</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- War -->
+    <div class="section" id="listSection">
+    <div class="movies-bg">
+    <div class="war">
+        <div class="category-title-war">WAR</div>
+        <div class="eventsWrapper">
+          <div class="eventsCardW-1" onclick="location.href='#'">
+            <div class=cardWrapper>
+              <div class="movie-title">APOCALYPSE NOW</div>
+              <h1 class="releaseYear" style="color: #558D60;">1979</h1>
+            </div>
+          </div>
+          <div class="eventsCardW-2" onclick="location.href='#'">
+            <div class=cardWrapper></div>
+              <div class="movie-title">FULL METAL JACKET</div>
+              <h1 class="releaseYear" style="color: #558D60;">1987</h1>
+          </div>
+          <div class="eventsCardW-3" onclick="location.href='#'">
+            <div class=cardWrapper>
+              <div class="movie-title">ALL QUIET ON THE WESTERN FRONT</div>
+              <h1 class="releaseYear" style="color: #558D60;">2022</h1>
+            </div>
+          </div>
+          <div class="eventsCardW-4" onclick="location.href='#'">
+            <div class=cardWrapper>
+              <div class="movie-title">COME AND SEE</div>
+              <h1 class="releaseYear" style="color: #558D60;">1985</h1>
+            </div>
+          </div>
+          <div class="eventsCardW-5" onclick="location.href='#'">
+            <div class=cardWrapper>
+              <div class="movie-title">SCHINDLER'S LIST</div>
+              <h1 class="releaseYear" style="color: #558D60;">1993</h1>
+            </div>
+          </div>
+          <div class="eventsCardW-6" onclick="location.href='#'">
+            <div class=cardWrapper>
+              <div class="movie-title">DUNKIRK</div>
+              <h1 class="releaseYear" style="color: #558D60;">2017</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    <!-- Romance -->
+<div class="section" id="listSection">
+    <div class="movies-bg">
+    <div class="romance">
+        <div class="category-title-romance">ROMANCE</div>
+        <div class="eventsWrapper">
+          <div class="eventsCardR-1" onclick="location.href='#'">
+            <div class=cardWrapper>
+              <div class="movie-title">CASABLANCA</div>
+              <h1 class="releaseYear" style="color: #E89494;">1942</h1>
+            </div>
+          </div>
+          <div class="eventsCardR-2" onclick="location.href='#'">
+            <div class=cardWrapper></div>
+              <div class="movie-title">THE NOTEBOOK</div>
+              <h1 class="releaseYear" style="color: #E89494;">2004</h1>
+          </div>
+          <div class="eventsCardR-3" onclick="location.href='#'">
+            <div class=cardWrapper>
+              <div class="movie-title">THE WIND RISES</div>
+              <h1 class="releaseYear" style="color: #E89494;">2013</h1>
+            </div>
+          </div>
+          <div class="eventsCardR-4" onclick="location.href='#'">
+            <div class=cardWrapper>
+              <div class="movie-title">BLUE VALENTINE</div>
+              <h1 class="releaseYear" style="color: #E89494;">2010</h1>
+            </div>
+          </div>
+          <div class="eventsCardR-5" onclick="location.href='#'">
+            <div class=cardWrapper>
+              <div class="movie-title">DYLAN 1990</div>
+              <h1 class="releaseYear" style="color: #E89494;">2018</h1>
+            </div>
+          </div>
+          <div class="eventsCardR-6" onclick="location.href='#'">
+            <div class=cardWrapper>
+              <div class="movie-title">ADA APA DENGAN CINTA?</div>
+              <h1 class="releaseYear" style="color: #E89494;">2002</h1>
+            </div>
+          </div>
+        </div>
+        <div class="whitespace1"></div>
+        <div class="stripe1"></div>
+        <div class="stripe2"></div>
+      </div>
+      
+ <!-- Footer -->
+ <div class="footer_container">
+  <div class="footer_links">
+      <div class="footer_link-wrapper">
+          <div class="footer_link-items">
+              <h2>About Us</h2>
+              <h3>JeTFlix is created to provide film and series recommendations for you movie lovers!<br><br>Granted, all of our recommendations
+                          are critically acclaimed so you need not to worry about the quality of said film and series before deciding to watch 
+                          them. 
+              <h3>
+          </div>
+      </div>
+      <div class="footer_links-wrapper">
+          <div class="footer_link-items">
+              <h2>Social Media</h2>
+              <a href="#">Instagram</a>
+              <a href="#">Facebook</a>
+              <a href="#">Youtube</a>
+              <a href="#">Twitter</a>
+          </div>
+      </div>
+  </div>
+  <section class="social_media">
+      <div class="social_media-wrap">
+          <div class="footer_logo">
+              <a href="#" id="footer_logo"><img src="../Assets/Logo-alt.png" alt="" id="logofooter"></a>
+          </div>
+          <p class="website_rights">@JeTFlix 2023. All rights reserved</p>
+          <div class="social_icons">
+              <a href="#" class="social_icon-link" target="_blank"><i class = "fab fa-facebook"></i></a>
+              <a href="#" class="social_icon-link"><i class = "fab fa-instagram"></i></a>
+              <a href="#" class="social_icon-link"><i class = "fab fa-youtube"></i></a>
+              <a href="#" class="social_icon-link"><i class = "fab fa-twitter"></i></a>
+          </div>
+      </div>
+  </section>
+</div>
+    
+    <script src="../JS Files/app.js"></script>
+    <script src="../JS Files/darktheme.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS Files/home.css">
+    <link rel="stylesheet" href="../CSS Files/transition.css">
+    <link rel="stylesheet" href="../CSS Files/details.css">
+    <link rel="stylesheet" href="../CSS Files/unpkg.com_swiper@8.1.6_swiper-bundle.min.css">
+    <script src="https://kit.fontawesome.com/ea57a11c1b.js" crossorigin="anonymous"></script>
+    <title>Details | JeTFlix</title>
+</head>
+<style>
+    /* For the color of the prev and next icon in all episodes. The color won't change when tried in external CSS so internal CSS is used. */
+    :root {
+    --primary-color: #F5F5F5;
+    --secondary-color: #121212;
+}
+.dark_theme {
+    --primary-color: #121212;
+    --secondary-color: #F5F5F5;
+}
+</style>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <div class="navLogo" id="navbar_logo">
+                <button onclick="location.href='#homeSection'">
+                <img class="logo" src="../Assets/Logo-main.png" alt="logo" id="logo-nav">
+                </button>
+              </div>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                    <li class="navbar_item">
+                    <a href="home.html" class="navbar_links" id="home-page">HOME</a>
+                    </li>
+                    <li class="navbar_item">
+                    <a href="news.html" class="navbar_links" id="about-page">NEWS<br>& POPULAR</a>
+                    </li>
+                    <li class="navbar_item">
+                    <a href="movies.html" class="navbar_links" id="songs-page">MOVIES</a>
+                    </li>
+                    <li class="navbar_item">
+                    <a href="#detailsSection" class="navbar_links" id="songs-page">DETAILS</a>
+                    </li>
+                    <li class="navbar_button">
+                    <a href="sign-up.html" class="navbtn" id="signup">SIGN-UP</a>
+                    </li>
+            </ul>
+        </div>
+      <img src="../Assets/moon.png" alt="moon" id="darklight">
+    </nav>
+
+    <!-- Best Movie -->
+    <div class="section" id="detailsSection">
+        <div class="Title">BEST MOVIE</div>
+        <div class="bestMovieContainer">
+          <div class="title">THE WALKING DEAD</div>
+          <div class="genre">HORROR, THRILLER</div>
+          <div class="seasonDetails" style="color: #6188AF;">11 SEASONS</div>
+          <div class="seasonDetails" style="color: #8CB8E3;">BY <br> ROBERT KIRKMAN</div>
+          <div class="descContainer">
+            <h1 class="desc">CAST</h1>
+            <h2 class="desc1">Norman Reedus - Daryl, Andrew Lincoln - Rick, Melissa McBride - Carol Peletier , Lauren Cohan - Maggie Greene, Jeffrey Dean Morgan - Negan, Danai Gurira - Michonne, Chandler Riggs - Carl, Steven Yeun - Glenn</h2>
+          </div>
+        </div>
+      </div>
+
+    <!-- Synopsis -->
+  <div class="synopsis">
+    <div class="synopsis-title" style="margin-bottom: 3rem;">SYNOPSIS</div>
+    <div class="whitespace"></div>
+    <div class="container">
+      <div class="synopsis-desc">The Walking Dead takes place after the onset of a worldwide zombie apocalypse. The zombies, referred to as "walkers", shamble towards living humans and other creatures to eat them; they are attracted to noise, such as gunshots, and to different scents, e.g. humans. Although it initially seems that only humans that are bitten or scratched by walkers can turn into other walkers, it is revealed early in the series that all living humans carry the pathogen responsible for the mutation. The mutation is activated after the death of the pathogen's host, and the only way to permanently kill a walker is to damage its brain or destroy the body entirely, such as by cremating it.
+      </div>
+      <div class="synopsis-desc">The series centers on sheriff's deputy Rick Grimes, who wakes up from a coma. While in a coma, the world has been taken over by walkers. He becomes the leader of a group of survivors from the Atlanta, Georgia, region as they attempt to sustain and protect themselves not only against attacks by walkers but by other groups of survivors willing to use any means necessary to stay alive.
+      </div>
+    </div>
+  </div>
+
+  <!-- All Episodes -->
+  <div class="synopsis-title" style="margin-bottom: -4rem;" id="synopsis-title-all">ALL EPISODES (SEASON 1)</div>
+  <div class="episodes-body">
+  <div class="slide-container swiper">
+    <div class="slide-content">
+        <div class="card-wrapper swiper-wrapper">
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+                    <div class="card-image">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div class="content-container">
+                    <h3 class="season">S1E1</h3>
+                    <h3 class="runtime">1H 7Min</h3>
+                </div>
+                    <h2 class="name">DAYS GONE BYE</h2>
+                    <p class="description">Sheriff's deputy Rick Grimes wakes from a gunshot-inflicted coma to discover the world overrun with walkers. He goes back to his house to try and find his wife and son.</p>
+                    <div class="space1"></div>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay2"></span>
+                    <div class="card-image">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div class="content-container">
+                        <h3 class="season">S1E2</h3>
+                        <h3 class="runtime">45Min</h3>
+                    </div>
+                        <h2 class="name">GUTS</h2>
+                        <p class="description">Rick is ambushed by a walker horde but is rescued by scavenger survivor Glenn when he becomes trapped inside a tank.</p>
+                        <div class="space2"></div>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay3"></span>
+                    <div class="card-image">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div class="content-container">
+                        <h3 class="season">S1E3</h3>
+                        <h3 class="runtime">44Min</h3>
+                    </div>
+                        <h2 class="name">TELL IT TO THE FROGS</h2>
+                        <p class="description">Glenn takes Rick to the survivors' camp where he finds Lori, Carl, and Shane.</p>
+                        <div class="space3"></div>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay4"></span>
+                    <div class="card-image">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div class="content-container">
+                        <h3 class="season">S1E4</h3>
+                        <h3 class="runtime">45Min</h3>
+                    </div>
+                        <h2 class="name">VATOS</h2>
+                        <p class="description">In Atlanta, the rescue team tries to take Rick's weapon bag off of the street. Glenn is kidnapped by Latino survivors and the group holds a young Latino survivor to trade for Glenn's life.</p>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay5"></span>
+                    <div class="card-image">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div class="content-container">
+                        <h3 class="season">S1E5</h3>
+                        <h3 class="runtime">44Min</h3>
+                    </div>
+                        <h2 class="name">WILDFIRE</h2>
+                        <p class="description">After the survivors bury the dead, Rick leads the rest to the CDC facility in Atlanta against Shane's advice.</p>
+                        <div class="space" style="height: 6vh;"></div>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay6"></span>
+                    <div class="card-image">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div class="content-container">
+                    <h3 class="season">S1E6</h3>
+                        <h3 class="runtime">45Min</h3>
+                    </div>
+                        <h2 class="name">TS - 19</h2>
+                        <p class="description">Dr. Edwin Jenner of the CDC welcomes the survivors, allowing them to enjoy the amenities of the powered building while explaining what he knows about walkers.</p>
+                        <div class="space" style="height: 3vh;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-button-next swiper-navBtn" style="color: var(--secondary-color)"></div>
+    <div class="swiper-button-prev swiper-navBtn" style="color: var(--secondary-color)"></div>
+    <div class="swiper-pagination" style="color: #30475E;"></div>
+</div>
+</div>
+
+ <!-- Footer -->
+ <div class="stripe1" style="margin-top: -2rem;"></div>
+ <div class="stripe2"></div>
+ <div class="footer_container">
+    <div class="footer_links">
+        <div class="footer_link-wrapper">
+            <div class="footer_link-items">
+                <h2>About Us</h2>
+                <h3>JeTFlix is created to provide film and series recommendations for you movie lovers!<br><br>Granted, all of our recommendations
+                            are critically acclaimed so you need not to worry about the quality of said film and series before deciding to watch 
+                            them. 
+                <h3>
+            </div>
+        </div>
+        <div class="footer_links-wrapper">
+            <div class="footer_link-items">
+                <h2>Social Media</h2>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Youtube</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </div>
+    <section class="social_media">
+        <div class="social_media-wrap">
+            <div class="footer_logo">
+                <a href="#" id="footer_logo"><img src="../Assets/Logo-alt.png" alt="" id="logofooter"></a>
+            </div>
+            <p class="website_rights">@JeTFlix 2023. All rights reserved</p>
+            <div class="social_icons">
+                <a href="#" class="social_icon-link" target="_blank"><i class = "fab fa-facebook"></i></a>
+                <a href="#" class="social_icon-link"><i class = "fab fa-instagram"></i></a>
+                <a href="#" class="social_icon-link"><i class = "fab fa-youtube"></i></a>
+                <a href="#" class="social_icon-link"><i class = "fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+</div>
+
+    <script src="../JS Files/unpkg.com_swiper@8.1.6_swiper-bundle.min.js"></script>
+    <script src="../JS Files/swiper.js"></script>
+    <script src="../JS Files/app.js"></script>
+    <script src="../JS Files/darktheme.js"></script>
+
+</body>
+</html>

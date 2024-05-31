@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS Files/home.css">
+    <link rel="stylesheet" href="../CSS Files/transition.css">
+    <link rel="stylesheet" href="../CSS Files/sign-up.css">
+    <script src="https://kit.fontawesome.com/ea57a11c1b.js" crossorigin="anonymous"></script>
+    <title>Sign-Up | JeTFlix</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <div class="navLogo" id="navbar_logo">
+                <button onclick="location.href='#homeSection'">
+                <img class="logo" src="../Assets/Logo-main.png" alt="logo" id="logo-nav">
+                </button>
+              </div>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                    <li class="navbar_item">
+                    <a href="home.html" class="navbar_links" id="home-page">HOME</a>
+                    </li>
+                    <li class="navbar_item">
+                    <a href="news.html" class="navbar_links" id="about-page">NEWS<br>& POPULAR</a>
+                    </li>
+                    <li class="navbar_item">
+                    <a href="movies.html" class="navbar_links" id="songs-page">MOVIES</a>
+                    </li>
+                    <li class="navbar_item">
+                    <a href="details.html" class="navbar_links" id="songs-page">DETAILS</a>
+                    </li>
+                    <li class="navbar_button">
+                    <a href="signupSection" class="navbtn" id="signup">SIGN-UP</a>
+                    </li>
+            </ul>
+        </div>
+      <img src="../Assets/moon.png" alt="moon" id="darklight">
+    </nav>
+    <div class="background-clr">
+    <div class="Title">SIGN - UP</div>
+    <div class="registerBox">
+        <div class="container">
+            <form class="form" action="/" id="form">
+            <h1 class="Register">REGISTRATION</h1>
+            <div class="form-row">
+                <label for="nameInput" class="title">Username</label>
+                <input type="text" id="nameInput" class="form-Input" placeholder="Jane Doe">
+                <div class="error"></div>
+            </div>
+            <div class="form-row">
+                <label for="pwInput" class="title">Password</label>
+                <input type="password" id="pwInput" class="form-Input" placeholder="Password">
+                <div class="error"></div>
+            </div>
+            <div class="form-row">
+                <label for="pwInput2" class="title">Confirm Password</label>
+                <input type="password" id="pwInput2" class="form-Input" placeholder="Confirm Password">
+                <div class="error"></div>
+            </div>
+            <div class="form-row">
+                <label for="nameInput" class="title">Date of Birth</label>
+                <input type="text" id="dateInput" class="form-Input" placeholder="17 - 08 - 1945">
+                <div class="error"></div>
+            </div>
+            <div class="form-row">
+                <label for="genderInput" class="title">Gender</label>
+                <div class="genderList">
+                    <input type="radio" name="genderInput" id="male" value="male">
+                    <label for="male" class="gender-label">Male</label>
+                    <input type="radio" name="genderInput" id="female" value="female">
+                    <label for="female" class="gender-label">Female</label>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="check-container">
+                <input type="checkbox" name="agreement" id="agreement" class="checkbox_input">
+                <label for="checkbox" class="checkbox-label">I agree with the terms and conditions</label>
+                </div>
+            </div>
+            <button type="submit" class="submit-btn">
+                    SUBMIT
+            </button>
+            </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+  <div class="footer_container">
+    <div class="stripe1"></div>
+    <div class="stripe2"></div>
+    <div class="footer_links">
+        <div class="footer_link-wrapper">
+            <div class="footer_link-items">
+                <h2>About Us</h2>
+                <h3>JeTFlix is created to provide film and series recommendations for you movie lovers!<br><br>Granted, all of our recommendations
+                            are critically acclaimed so you need not to worry about the quality of said film and series before deciding to watch 
+                            them. 
+                <h3>
+            </div>
+        </div>
+        <div class="footer_links-wrapper">
+            <div class="footer_link-items">
+                <h2>Social Media</h2>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Youtube</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </div>
+    <section class="social_media">
+        <div class="social_media-wrap">
+            <div class="footer_logo">
+                <a href="#" id="footer_logo"><img src="../Assets/Logo-alt.png" alt="" id="logofooter"></a>
+            </div>
+            <p class="website_rights">@JeTFlix 2023. All rights reserved</p>
+            <div class="social_icons">
+                <a href="#" class="social_icon-link" target="_blank"><i class = "fab fa-facebook"></i></a>
+                <a href="#" class="social_icon-link"><i class = "fab fa-instagram"></i></a>
+                <a href="#" class="social_icon-link"><i class = "fab fa-youtube"></i></a>
+                <a href="#" class="social_icon-link"><i class = "fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+</div>
+
+    <script src="../JS Files/app.js"></script>
+    <script src="../JS Files/darktheme.js"></script>
+    <script src="../JS Files/validation.js"></script>
+
+</body>
+</html>

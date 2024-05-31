@@ -1,0 +1,728 @@
+/* Dark Theme Light Theme */
+:root {
+    --primary-color: #F5F5F5;
+    --secondary-color: #121212;
+}
+.dark_theme {
+    --primary-color: #121212;
+    --secondary-color: #F5F5F5;
+}
+
+/* Jumbotron */
+.section {
+    min-height: 100vh;
+    min-height: 100svh;
+    height: auto;
+    background: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+}
+.jumbo-img{
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../Assets/best\ movie\ -\ movies.jpg');
+    height: 100vh;
+    min-width: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+    flex-direction: column;
+}
+.jumbo-title{
+    display: inline-block;
+    word-spacing: 10px;
+    padding-top: 2rem;
+    padding-right: 1.5rem;
+    font-size: clamp(4vw, 4rem, 6vw);
+    font-weight: 700;
+    color: #F5F5F5;
+}
+
+.genre{
+    padding-top: 1rem;
+    padding-right: 1.5rem;
+    font-size: clamp(3vw, 3rem, 5vw);
+    font-weight: 700;
+    color: #F05454;
+} 
+.detailsBtn{
+    font-size: 1.5rem;
+    font-weight: 800; 
+    background-color: #30475E;
+    color: #F5F5F5;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    margin: auto;
+    margin-top: 20rem;
+    border-style: none;
+    transition: 0.4s ease-in-out;
+}
+.detailsBtn:hover {
+    text-decoration: none;
+    background-color: #F05454;
+    color: #121212;
+    font-weight: 800;
+    transition: 0.4s ease-in-out;
+}
+
+/* Movies */
+/* Horror */
+.horror, .action, .war, .romance{
+    position: relative;
+}
+.category-title{
+    background: transparent;
+    position: relative;
+    font-size: 3rem;
+    color: var(--secondary-color);
+    font-weight: 900;
+    margin-bottom: 2rem;
+    margin-top: 2rem
+}
+.category-title {
+    overflow: hidden;
+    text-align: center;
+}
+.category-title:before, .category-title:after {
+    background-color: #F05454;
+    content: "";
+    display: inline-block;
+    height: 23px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.category-title:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.category-title:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+.movies-bg{
+    position: relative;
+    background-color: var(--primary-color);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+/* Horror - 1 */
+.eventsCardH-1 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/horror-1.jpg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.eventsCardH-1:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* Horror - 2 */
+.eventsCardH-2 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/horror\ -\ 2.jpg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.eventsCardH-2:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* Horror - 3 */
+.eventsCardH-3 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/horror\ -\ 3.jpg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.eventsCardH-3:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* Horror - 4 */
+.eventsCardH-4 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/horror\ -\ 4.jpg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.eventsCardH-4:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* Horror - 5 */
+.eventsCardH-5 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/horror\ -\ 5.jpg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.eventsCardH-5:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* Horror - 6 */
+.eventsCardH-6 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/horror\ -\ 6.jpg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.eventsCardH-6:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+.eventsWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.cardWrapper{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
+.movie-title{
+    display: flex;
+    font-size: 35px;
+    font-weight: 900;
+    color: #121212;
+    justify-content: center;
+    text-align: center;
+}
+
+.releaseYear{
+    display: flex;
+    font-size: 50px;
+    font-weight: 900;
+    color: #F05454;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.productsDetail{
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 35px;
+    color: #F5F5DC;
+    text-align: left;
+}
+
+/* Action */
+.category-title-action{
+    background: transparent;
+    position: relative;
+    font-size: 3rem;
+    color: var(--secondary-color);
+    font-weight: 900;
+    margin-bottom: 2rem;
+    margin-top: 2rem
+}
+.category-title-action {
+    overflow: hidden;
+    text-align: center;
+}
+.category-title-action:before, .category-title-action:after {
+    background-color: #30475E;
+    content: "";
+    display: inline-block;
+    height: 23px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.category-title-action:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.category-title-action:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+/* Action - 1 */
+.eventsCardA-1 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/action\ -\ 1.jpg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.eventsCardA-1:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* Action - 2 */
+.eventsCardA-2 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/action\ -\ 2.jpg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.eventsCardA-2:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* Action - 3 */
+.eventsCardA-3 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/action\ -\ 3.jpg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.eventsCardA-3:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* Action - 4 */
+.eventsCardA-4 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/action\ -\ 4.jpg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.eventsCardA-4:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* Action - 5 */
+.eventsCardA-5 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/action\ -\ 5.jpg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.eventsCardA-5:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* Action - 6 */
+.eventsCardA-6 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/action\ -\ 6.jpg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+    background-size: cover;
+}
+
+.eventsCardA-6:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* War */
+.category-title-war{
+    background: transparent;
+    position: relative;
+    font-size: 3rem;
+    color: var(--secondary-color);
+    font-weight: 900;
+    margin-bottom: 2rem;
+    margin-top: 2rem
+}
+.category-title-war {
+    overflow: hidden;
+    text-align: center;
+}
+.category-title-war:before, .category-title-war:after {
+    background-color: #558D60;
+    content: "";
+    display: inline-block;
+    height: 23px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.category-title-war:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.category-title-war:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+/* War - 1 */
+.eventsCardW-1 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/war\ -\ 1.jpg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.eventsCardW-1:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* War - 2 */
+.eventsCardW-2 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/war\ -\ 2.jpg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.eventsCardW-2:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* War - 3 */
+.eventsCardW-3 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/war\ -\ 3.jpg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.eventsCardW-3:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* War - 4*/
+.eventsCardW-4 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/war\ -\ 4.jpeg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.eventsCardW-4:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* War - 5 */
+.eventsCardW-5 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/war\ -\ 5.jpg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.eventsCardW-5:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* War - 6 */
+.eventsCardW-6 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/war\ -\ 6.jpg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.eventsCardW-6:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* Romance */
+.category-title-romance{
+    background: transparent;
+    position: relative;
+    font-size: 3rem;
+    color: var(--secondary-color);
+    font-weight: 900;
+    margin-bottom: 2rem;
+    margin-top: 2rem
+}
+.category-title-romance {
+    overflow: hidden;
+    text-align: center;
+}
+.category-title-romance:before, .category-title-romance:after {
+    background-color: #E89494;
+    content: "";
+    display: inline-block;
+    height: 23px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.category-title-romance:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.category-title-romance:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+/* Romance - 1 */
+.eventsCardR-1 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/romance\ -\ 1.jpeg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+    background-size: cover;
+}
+
+.eventsCardR-1:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* Romance - 2 */
+.eventsCardR-2 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/romance\ -\ 2.jpg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.eventsCardR-2:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* Romance - 3 */
+.eventsCardR-3 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/romance\ -\ 3.jpeg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+    background-size: cover;
+}
+
+.eventsCardR-3:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* Romance - 4*/
+.eventsCardR-4 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/romance\ -\ 4.jpg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.eventsCardR-4:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* Romance - 5 */
+.eventsCardR-5 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/romance\ -\ 5.png');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.eventsCardR-5:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+/* Romance - 6 */
+.eventsCardR-6 {
+    height: 343px;
+    width: 367px;
+    border-radius: 40px 40px 40px 40px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../Assets/romance\ -\ 6.jpg');
+    transition: 0.3s ease-in;
+    box-shadow: 5px 20px 20px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.eventsCardR-6:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 10px 25px 25px 10px rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 960px) {
+    .eventsWrapper {
+        flex-direction: column;
+    }
+    .eventsCard{
+        width: 100%;
+        flex-grow: 1;
+        flex-basis: auto;
+    }
+}
+
+.whitespace1 {
+    height: 6rem;
+}

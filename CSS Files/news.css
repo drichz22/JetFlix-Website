@@ -1,0 +1,330 @@
+/* Dark Theme Light Theme */
+:root {
+    --primary-color: #F5F5F5;
+    --secondary-color: #121212;
+}
+.dark_theme {
+    --primary-color: #121212;
+    --secondary-color: #F5F5F5;
+}
+
+/* News1 */
+.news1Container{
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../Assets/1st\ Movie\ -\ News.jpg');
+    height: 100vh;
+    min-width: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    align-items: center;
+}
+
+.castContainer1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: clamp(85vw, 45vw, 125vw);
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    padding-right: 1rem;
+    background-color: rgba(0, 0, 0, 0.64);
+    border-radius: 25px 0px 0px 25px;
+}
+
+.playbutton {
+    height: 238px;
+    width: 238px;
+    position: absolute;
+    left: 40%;
+    top: 35%;
+    cursor: pointer;
+}
+
+.TitleNews1{
+    background: transparent;
+    position: relative;
+    font-size: 3rem;
+    color: var(--secondary-color);
+    font-weight: 900;
+}
+
+.TitleNews1 {
+    overflow: hidden;
+    text-align: center;
+}
+
+.TitleNews1:before, .TitleNews1:after {
+    background-color: #F05454;
+    content: "";
+    display: inline-block;
+    height: 10px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.TitleNews1:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.TitleNews1:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.titleNews1{
+    font-size: clamp(4vw, 4rem, 6vw);
+    text-align: right;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    color: #F5F5F5;
+    font-weight: 900;
+}
+
+.genreNews1{
+    font-size: clamp(3vw, 3rem, 5vw);
+    text-align: right;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    color: #F05454;
+    font-weight: 700;
+}
+
+.seasonDetailsNews1{
+    font-size: clamp(2vw, 2rem, 4vw);
+    text-align: right;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    color: #6188AF;
+    font-weight: 700;
+}
+
+.castNews1Title{
+    font-size: clamp(3vw, 3rem, 4vw);
+    margin-bottom: 0.25rem;
+    margin-right: 2.5rem;
+    color: #F5F5DC;
+    font-weight: bold;
+    text-align: right;
+}
+
+.castNews1Desc{
+    font-size: clamp(0.5vw, 1rem, 1.5vw);
+    margin-right: 2.5rem;
+    color: #F5F5DC;
+    font-weight: normal;
+    text-align: right;
+    margin-left: 5rem;
+}
+
+.downContainer {
+    position: relative;
+    background-color: var(--primary-color);
+}
+
+.download {
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+    top: 2rem;
+    left: 2rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.download:hover {
+    transition: 0.3s ease-in-out;
+    color: #F05454;
+}
+
+/* Film2 */
+.TitleNews2{
+    background: transparent;
+    position: relative;
+    font-size: 3rem;
+    color: var(--secondary-color);
+    font-weight: 900;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.TitleNews2:before, .TitleNews2:after {
+    background-color: #30475E;
+    content: "";
+    display: inline-block;
+    height: 10px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.TitleNews2:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.TitleNews2:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.news2Container {
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../Assets/2nd\ Movie\ -\ News.jpg');
+    height: 100vh;
+    min-width: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    align-items: center;
+}
+
+/* Film3 */
+.TitleNews3{
+    background: transparent;
+    position: relative;
+    font-size: 3rem;
+    color: var(--secondary-color);
+    font-weight: 900;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.TitleNews3:before, .TitleNews3:after {
+    background-color: #30475E;
+    content: "";
+    display: inline-block;
+    height: 10px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.TitleNews3:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.TitleNews3:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.news3Container {
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../Assets/3rd\ Movie\ -\ News.jpg');
+    height: 100vh;
+    min-width: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    align-items: center;
+}
+
+/* Film4 */
+.TitleNews4{
+    background: transparent;
+    position: relative;
+    font-size: 3rem;
+    color: var(--secondary-color);
+    font-weight: 900;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.TitleNews4:before, .TitleNews4:after {
+    background-color: #30475E;
+    content: "";
+    display: inline-block;
+    height: 10px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.TitleNews4:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.TitleNews4:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.news4Container {
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../Assets/4th\ Movie\ -\ News.png');
+    height: 100vh;
+    min-width: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    align-items: center;
+}
+
+/* Film5 */
+.TitleNews5{
+    background: transparent;
+    position: relative;
+    font-size: 3rem;
+    color: var(--secondary-color);
+    font-weight: 900;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.TitleNews5:before, .TitleNews5:after {
+    background-color: #30475E;
+    content: "";
+    display: inline-block;
+    height: 10px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.TitleNews5:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.TitleNews5:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.news5Container {
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../Assets/5th\ Movie\ -\ News.jpg');
+    height: 100vh;
+    min-width: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    align-items: center;
+}
+
+@media screen and (max-width: 820px) {
+    .playbutton {
+        width: 25vw;
+        height: 25vw;
+    }
+}
